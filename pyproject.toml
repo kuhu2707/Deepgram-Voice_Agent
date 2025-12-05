@@ -1,0 +1,25 @@
+[project]
+name = "deepgram"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "dataparser>=0.0.2",
+    "dateparser>=1.2.2",
+    "deepgram-sdk>=5.3.0",
+    "fastapi>=0.123.6",
+    "google-api-python-client>=2.187.0",
+    "google-auth>=2.43.0",
+    "google-auth-httplib2>=0.2.1",
+    "google-auth-oauthlib>=1.2.2",
+    "janus>=2.0.0",
+    "pyaudio>=0.2.14",
+    "python-dateutil>=2.9.0.post0",
+    "python-dotenv>=1.2.1",
+    "pyttsx3>=2.99",
+    "requests>=2.32.5",
+    "uvicorn>=0.38.0",
+    "websocket-client>=1.9.0",
+    "websockets>=15.0.1",
+]
